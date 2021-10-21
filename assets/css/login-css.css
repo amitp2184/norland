@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0 auto;
+  font-family: 'Urbanist', sans-serif
+}
+.sign-main{
+  width: 100%;
+  display: flex;
+  padding: 106px 0;
+}
+.sign-box-img{
+  width: 100%;
+}
+.logo-part{
+  width: 200px;
+  height: 124px;
+}
+.sign-box-img h1{
+  font-size: 42px;
+  line-height: 53px;
+  font-weight: 700;
+  margin: 0;
+  padding: 118px 0 0;
+  text-align: center;
+}
+.signimg{
+  text-align: center;
+  width: 600px;
+  height: 600px;
+  margin: 40px auto 0;
+  display: flex;
+}
+.sign-in-img{
+  text-align: center;
+  width: 408px;
+  height: 408px;
+  margin: 40px auto 0;
+  display: flex;
+}
+.sign-form{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.07);
+  border-radius: 14px;
+  padding: 72px; 
+}
+.sign-form ul{
+  margin: 0 0 85px;
+  padding: 0;
+}
+.sign-form ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: #283149;
+  padding: 0 80px 0 0;
+}
+.sign-form ul li a {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #CFCFCF;
+  border: none;
+  padding: 0 0 23px 0;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+.sign-form ul li a.active {
+  color: #283149;
+  background-color: #fff;
+  
+}
+.bottom-border {
+  border-bottom: 5px solid #283149 !important;
+  width: 7px !important;
+  display: inline-block;
+  padding: 0 42px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sign-form .form-group {
+  margin-bottom: 71px;
+}
+.sign-form .form-group .form-control {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding:0 0 21px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color:#283149 ;
+  border-bottom: 1px solid #CFCFCF !important;  
+  border: none;
+  transition: none;
+}
+.sign-form button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  width: 100%;
+  background: #3A476A;
+  border-radius: 14px;
+  padding: 31px 15px;
+  margin-bottom: 47px;
+}
+.sign-form .google-link-button a{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #283149;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  border-radius: 14px;
+  padding:17px 0;
+  border: 1px solid #283149;
+  display: block;
+  text-decoration: none;
+}
+.sign-form .google-link-button a img {
+  margin-right: 34px;
+}
+.sign-form input::placeholder {
+  color:#CFCFCF !important;
+}
+.sign-form .form-group .form-control:focus::placeholder {
+  color:#283149 !important
+}
+.sign-form .form-group .form-control:focus {
+  color: #283149 !important;
+  background-color: #fff;
+  border-color: #283149 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+.sign-form .condi-check h6 {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 34px;
+}
+
+.sign-form .password-contain input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  width:30px;
+  height:30px;
+  outline-color: #ff5947;
+  position: relative;
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  margin-right: 13px;
+  cursor: pointer;
+  float: left;
+  margin-top: 0px;
+  border-radius: 50%;
+  background: url(../images/radio-icon.png);
+}
+/*.sign-form .password-contain input[type="checkbox"]:checked {
+  outline: none;
+  background: url(../images/radio-icon.png);
+  background-size: cover;
+}*/
+.sign-form .password-contain h6 {
+  margin: 15px 0;
+}
+.sign-form .password-contain h6 span label {
+  cursor: pointer;
+  padding-right: 13px;
+  width: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #CFCFCF;
+}
+
+.sign-form .condi-check input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  outline-color: #ff5947;
+  position: relative;
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  margin-right: 20px;
+  cursor: pointer;
+  float: left;
+  margin-top: 0px;
+  border-radius: 7px;
+  background: #FFFFFF;
+  border: 1px solid #283149;
+}
+.sign-form .condi-check input[type="checkbox"]:checked {
+  outline: none;
+  background: url(../images/checkbox-icon.png);
+  background-size: cover;  
+}
+.sign-form .condi-check h6 span label {
+  cursor: pointer;
+  padding-right: 15px;
+  width: auto;
+  font-weight: 400;
+  font-size:24px;
+  line-height: 29px;
+  color: #283149;
+}
+.forgot-bnt{
+  width: 100%;
+  margin-top: 47px;
+}
+.forgot-bnt a{
+  font-size: 24px;
+  line-height: 29px;
+  color: #283149;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width:1920px){
+.container {
+  max-width: 1580px;
+  padding: 0 94px ;
+}
+}
+
+@media (max-width: 1366px){
+.sign-main {
+  padding: 80px 0;
+}
+.sign-form {
+  padding: 50px 30px !important;
+}
+.sign-form .google-link-button a {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 3px 0;
+}
+.sign-form button {
+  padding:15px;
+}
+.sign-form .form-group {
+  margin-bottom: 30px;
+}
+.sign-box-img h1 {
+  font-size: 20px;
+  padding: 30px 0 0;
+  line-height: 22px;
+}
+.signimg {
+  width: 100%;
+  height: auto;
+}
+}
+
+@media (max-width: 1024px){
+.sign-form ul li {
+  padding: 0 30px 0 0;
+}
+.sign-form .password-contain h6 span label {
+  font-size: 10px;
+  line-height: 24px;
+}
+.sign-form .condi-check h6 span label {
+  font-size: 14px;
+  line-height: 29px;
+}
+.sign-form .google-link-button a img {
+  margin-right: 0px;
+  width: 26px;
+}
+.sign-form .google-link-button a {
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px 0;
+}
+.sign-form button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+.sign-form ul li a {
+  font-size: 24px;
+}
+.bottom-border {
+  padding: 0 30px;
+}
+.sign-in-img {
+  width: 100%;
+  height: auto;
+}
+}

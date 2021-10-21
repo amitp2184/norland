@@ -1,0 +1,16 @@
+[
+  {
+    "name": "signin",
+    "path": "/signin",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/norland/pages/signin.vue",
+    "chunkName": "pages/signin",
+    "_name": "_3cdbe17c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/norland/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4414b362"
+  }
+]
