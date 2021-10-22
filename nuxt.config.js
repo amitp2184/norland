@@ -35,6 +35,7 @@ export default {
       '~/assets/css/bootstrap.min.css',
       '~/assets/css/font-awesome.min.css',
       '~/assets/css/login-css.css',
+      '~/assets/css/web-css.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

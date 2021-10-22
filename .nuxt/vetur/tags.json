@@ -1,4 +1,7 @@
 {
+  "Dashboard": {
+    "description": "Auto imported from components/Dashboard.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },

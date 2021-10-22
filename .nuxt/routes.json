@@ -1,16 +1,20 @@
 [
   {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/norland/pages/dashboard.vue",
+    "chunkName": "pages/dashboard"
+  },
+  {
     "name": "signin",
     "path": "/signin",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/norland/pages/signin.vue",
-    "chunkName": "pages/signin",
-    "_name": "_3cdbe17c"
+    "chunkName": "pages/signin"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/norland/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4414b362"
+    "chunkName": "pages/index"
   }
 ]
