@@ -2,6 +2,9 @@
   "Dashboard": {
     "description": "Auto imported from components/Dashboard.vue"
   },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },

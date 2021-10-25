@@ -1,4 +1,5 @@
 export { default as Dashboard } from '../../components/Dashboard.vue'
+export { default as Notification } from '../../components/Notification.vue'
 export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
 export { default as Signin } from '../../components/Signin.vue'
 export { default as Signup } from '../../components/Signup.vue'
